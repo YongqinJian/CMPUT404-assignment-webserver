@@ -1,5 +1,7 @@
 CMPUT404-assignment-webserver
 =============================
+# Under Apache License
+# Copyright {2021} {Yongqin Jian}
 
 CMPUT404-assignment-webserver
 

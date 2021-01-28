@@ -1,7 +1,8 @@
 #  coding: utf-8 
 import socketserver
 
-# Copyright 2013 Abram Hindle, Eddie Antonio Santos
+# Copyright 2013 Abram Hindle, Eddie Antonio Santos,
+# Revised by Yongqin Jian 1/28/2021 for Assignment 1
 # 
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -25,6 +26,9 @@ import socketserver
 # run: python freetests.py
 
 # try: curl -v -X GET http://127.0.0.1:8080/
+
+# Under Apache License
+# Copyright {2021} {Yongqin Jian}
 
 
 class MyWebServer(socketserver.BaseRequestHandler):
