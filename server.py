@@ -91,7 +91,7 @@ class MyWebServer(socketserver.BaseRequestHandler):
 
     def check_file(self, filename):
         if filename[-1] != '/' and '.' not in filename:
-            filename = 'http://localhost:8080'+filename+'/'
+            filename = 'http://127.0.0.1:8080'+filename+'/'
             self.request.sendall(bytearray('HTTP/1.1 301 Moved Permanently\r\nLocation:' + filename + '\r\n', 'utf-8'))
             return None
         if filename == '/':
